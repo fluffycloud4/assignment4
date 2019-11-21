@@ -154,3 +154,31 @@ nav ul li a {
     padding-right: 10px;
 }
 
+form p {
+    
+    display: flex;
+    
+} 
+
+form label {
+    
+    
+    flex-basis: 33%;
+    
+    
+}
+
+
+form input, textarea, select {
+    
+    
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}  
+
+formcentral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -28,89 +28,104 @@
 
     <main>
 
-        <form>
 
-            <label for="firstname"> First Name:</label>
-            <input type="text" name="firstname" id="firstname">
+        <div class="formcentral">
+            <form action="surveyresults.html">
+<p>
+                <label for="firstname"> First Name:</label>
+                <input type="text" name="firstname" id="firstname">
+    
+    </p> 
+                <p>
 
-            <label for="lastname"> Last Name:</label>
-            <input type="text" name="lastname" id="lastname">
-
-            <label for="email"> Email Address: </label>
-            <input type="text" name="email" id="email">
-
-
-<br>
-            
-
-            <label for="What-desserts-do-you-like-to-make"> What Desserts Do You Like To Make?</label>
-            <select name="What-desserts-do-you-like-to-make" id="What-desserts-do-you-like-to-make" multiple>
-
-                <option value="icecream"> Ice cream</option>
-                <option value="cake">Cake</option>
-                <option value="cookies">Cookies</option>
-                <option value="cupcakes">Cupcakes</option>
-                <option value="pie">Pie</option>
-                <option value="tarts">Tarts</option>
-                <option value="cheesecake">Cheesecake</option>
-                <option value="frenchmeringue">French Meringue</option> 
-                <option value="eclairs">Eclairs</option> 
-                <option value="sorbet">Sorbet</option> 
-
-            </select>
-            
-            <br>
-
-
-            <label>What is your favorite dessert?</label>
-            <div class="dessertcheckbox">
-                <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="strawberrycheesecake" checked>Strawberry Cheescake</p>
-
-                <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="creampuffs">Cream puffs</p>
-
-                <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="canolli">Canollis</p>
-
-                <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="chocolatelavacake">Chocolate lava cake</p>
-
-                <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="applepie">Apple pie</p> 
+                <label for="lastname"> Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+</p>
                 
-                 <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="raspberryeclairs">Raspberry Eclairs</p> 
-                 
-                 <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="peartart">Pear Tart</p> 
+                <p>
+                <label for="email"> Email Address: </label>
+                <input type="text" name="email" id="email">
+</p>
+
+                <br>
+
+                <p>
+                    <label for="What-desserts-do-you-like-to-make"> What Desserts Do You Like To Make?</label>
+                    <select name="What-desserts-do-you-like-to-make" id="What-desserts-do-you-like-to-make" multiple>
+
+                        <option value="icecream"> Ice cream</option>
+                        <option value="cake">Cake</option>
+                        <option value="cookies">Cookies</option>
+                        <option value="cupcakes">Cupcakes</option>
+                        <option value="pie">Pie</option>
+                        <option value="tarts">Tarts</option>
+                        <option value="cheesecake">Cheesecake</option>
+                        <option value="frenchmeringue">French Meringue</option>
+                        <option value="eclairs">Eclairs</option>
+                        <option value="sorbet">Sorbet</option>
+
+
+
+                    </select>
+
+                </p>
+
+                <br>
+
+
+                <label>What is your favorite dessert?</label>
+
+                <div class="dessertcheckbox">
+                    <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="strawberrycheesecake" checked>Strawberry Cheescake</p>
+
+                    <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="creampuffs">Cream puffs</p>
+
+                    <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="cannoli">Cannolis</p>
+
+                    <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="chocolatelavacake">Chocolate lava cake</p>
+
+                    <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="applepie">Apple pie</p>
+
+                    <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="raspberryeclairs">Raspberry Eclairs</p>
+
+                    <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="peartart">Pear Tart</p>
+
+                    <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="icecreamsundae">Ice cream sundae</p> 
+                    
+                </div>
+
+
+
+                <div class="radiobutton">
+
+                    <label>Do you make desserts frequently?</label>
+                    <input type="radio" name="dessert-frequency" value="yes" checked>Yes
+                    <input type="radio" name="dessert-frequency" value="no">No
+                    <input type="radio" name="dessert-frequency" value="sometimes">Sometimes 
+    
+
+                </div> 
+
+                <br>
+
+<p>
+
+                <label for="commentary">Say more about what you like to make</label>
+                <textarea name="commentary" id="commentary" rows="4" cols="50"> </textarea>
+</p>
                 
-                 <p class="desertcheckboxstuff"><input type="checkbox" name="desserttype" value="icecreamsundae">Ice cream sundae</p>
-</div> 
-            
-            
-            
-            
-            
-            <div class="radiobutton"> 
-            
-            <label>Do you make desserts frequently?</label>
-                <input type="radio" name="dessert-frequency" value="yes" checked>Yes
-                 <input type="radio" name="dessert-frequency" value="no">No 
-                 <input type="radio" name="dessert-frequency" value="sometimes">Sometimes
-                
-            </div>
-            
-            <br>
+                <br>
 
+                <p>
+                    <label> </label>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
 
+                </p>
 
-            <label for="commentary">Say more about what you like to make</label>
- <textarea name="commentary" id="commentary" rows="4" cols="50"> </textarea>
-            
-            <br>
-            
-            <p>
-            <label> </label>
-            <input type="submit" value="submit"> 
-            <input type="reset" value="reset"> 
-         
-            </p>
+            </form>
 
- </form>
+        </div>
 
 
 
